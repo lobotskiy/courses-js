@@ -87,3 +87,11 @@
 // let inp2Value = inp2.value;
 // inp1.value = inp2Value;
 // inp2.value = inp1Value;
+
+//                             ***Task 7***
+
+// document.body.innerHTML=`<main class="mainClass check item"> 	
+// <div id="myDiv">
+// <p>First paragraph</p>           
+// </div>
+// </main> `;
