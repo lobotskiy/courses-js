@@ -86,3 +86,23 @@
 // }
 // checkEmail('my_mail@gmail.com');
 // checkEmail('#my_mail@gmail.com');
+
+// 7. Напишіть функцію, яка перевіряє правильність логіна. Правильний логін - рядок від 2 до 10 символів, що містить лише букви та цифри, номер не може бути першим. 
+//    Функція має приймати рядок і знаходити усі числа в цьому рядку, включаючи числа з плаваючою комою (наприклад, 3.4).
+//     Приклад роботи:
+// checkLogin('ee1.1ret3');
+// true 
+// 1.1, 3
+// checkLogin('ee1*1ret3');
+// false 
+// 1, 1, 3
+
+// function checkLogin(data) {
+//     let re = /^[a-zA-Z]{1}[a-zA-Z0-9\.]{1,9}$/;
+//     let numb = /[0-9\.]+/g;
+//     let resultNumb = data.match(numb);
+//     let result = re.test(data);
+//     console.log(`${data}is ${result} - ${resultNumb}`);
+// }
+// checkLogin('ee1.1ret3');
+// checkLogin('ee1*1ret3');
